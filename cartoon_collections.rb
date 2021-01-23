@@ -1,5 +1,5 @@
 def square_array(array)
-  array.map 
+  array.map { |element| 
 end
 
 def summon_captain_planet(planeteer_calls)
