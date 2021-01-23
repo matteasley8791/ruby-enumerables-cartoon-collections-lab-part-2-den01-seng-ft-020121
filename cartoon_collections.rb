@@ -4,7 +4,7 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map { |calls| calls.ca
+  planeteer_calls.map { |call| call.capatalize + "!"}
 end
 
 def long_planeteer_calls(planeteer_calls)
